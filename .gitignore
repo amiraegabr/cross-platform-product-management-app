@@ -1,0 +1,17 @@
+# Angular Web App
+/angular-web/node_modules/
+/angular-web/dist/
+/angular-web/.angular/
+
+# Flutter Mobile App
+/flutter-mobile/.dart_tool/
+/flutter-mobile/.pub-cache/
+/flutter-mobile/build/
+/flutter-mobile/ios/Pods/
+/flutter-mobile/ios/Runner.xcworkspace/
+
+# General / System
+.DS_Store
+.idea/
+.vscode/
+*.log

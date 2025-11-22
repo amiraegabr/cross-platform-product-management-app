@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646022360350",
+    "project_id": "product-management-app-cec4e",
+    "storage_bucket": "product-management-app-cec4e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646022360350:android:b08851698ebc5026cced0f",
+        "android_client_info": {
+          "package_name": "com.company.product_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGX4mKLmlq55L6ca-5Gl8ulYpWm57_DXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
