@@ -1,4 +1,4 @@
-# Firebase Dashboard Apps
+# Firebase Product Management Apps
 
 This repository contains **two apps** connected to the same Firebase project:
 
