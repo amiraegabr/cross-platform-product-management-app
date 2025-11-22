@@ -9,9 +9,30 @@ This repository contains **two apps** connected to the same Firebase project:
 
 ## Setup
 
+### Firebase Setup
+
+Enable Authentication → Email/Password.
+
+Create Firestore collection products with documents:
+
+{
+  "name": "string",
+  "price": "number",
+  "imgUrl": "string"
+}
+
+Angular: update firebaseConfig in environment.ts
+
+Flutter: add google-services.json (Android) and GoogleService-Info.plist (iOS)
+
+Both apps are independent but use the same Firebase backend.
+
+---
+
+
 ### Angular Web App
 
-1. Navigate to the Angular folder:
+2. Navigate to the Angular folder:
 
 ```bash
 cd angular-web
@@ -27,9 +48,11 @@ Copy code
 ng serve
 Open http://localhost:4200 in your browser.
 
+---
+
 ### Flutter Mobile App
 
-Navigate to the Flutter folder:
+3. Navigate to the Flutter folder:
 
 cd flutter-mobile
 
@@ -42,24 +65,3 @@ flutter pub get
 Run the app on an emulator or connected device:
 
 flutter run
-
-
-###Firebase Setup
-
-Enable Authentication → Email/Password.
-
-Create Firestore collection products with documents:
-
-{
-  "name": "string",
-  "price": 0,
-  "imageUrl": "string"
-}
-
----
-
-Angular: update firebaseConfig in environment.ts
-
-Flutter: add google-services.json (Android) and GoogleService-Info.plist (iOS)
-
-Both apps are independent but use the same Firebase backend.
